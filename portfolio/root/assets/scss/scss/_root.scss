@@ -1,0 +1,34 @@
+:root {
+	--bs-heading-color: var(--px-heading);
+}
+
+:root, 
+[data-bs-theme=light] {
+	--px-theme:	#{$px-theme};
+	--px-theme-2:	#{$px-theme-2};
+
+	--px-bg:	#{$px-bg};
+	--px-text:	#{$px-text};
+
+	--px-heading:	#{$px-heading};
+
+	--px-white:	#{$px-white};
+
+	--px-gray:	#{$px-gray};
+
+	--px-gray-bg:	#{$px-gray-bg};
+
+	--px-rounded: #{$px-rounded};
+	--px-g:	linear-gradient(90deg, var(--px-theme) 0%, var(--px-theme-2) 100%), var(--px-white);
+}
+
+[data-bs-theme=dark] {
+	--px-bg:	#{$px-dark-bg};
+	--px-text:	#{$px-dark-text};
+
+	--px-heading:	#{$px-dark-heading};	
+
+	--px-gray:	#{$px-dark-gray};
+
+	--px-gray-bg:	#{$px-dark-gray-bg};
+}
